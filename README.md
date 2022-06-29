@@ -23,7 +23,7 @@ Particular product in detail
 ![Screenshot (676)](https://user-images.githubusercontent.com/100461605/176488002-69dc7ca3-5290-4765-9945-acce62b80d20.png)
 
 
-Checkout Page
+Cart
 
 ![Screenshot (677)](https://user-images.githubusercontent.com/100461605/176488187-daf7d018-133d-4650-b3ec-638960745c99.png)
 
