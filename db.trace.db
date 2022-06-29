@@ -1,0 +1,48 @@
+2022-06-28 19:36:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM CATEGORY DELETE ALL[*]"; SQL statement:
+SELECT * FROM CATEGORY DELETE ALL [42000-200]
+2022-06-28 19:37:29 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (CATEGORY: ""CATEGORY_ID"" INTEGER NOT NULL)"; SQL statement:
+UPDATE "PUBLIC"."CATEGORY" SET "CATEGORY_ID"=? ,"NAME"=?  WHERE "CATEGORY_ID"=? [22018-200]
+2022-06-28 19:37:29 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (CATEGORY: ""CATEGORY_ID"" INTEGER NOT NULL)"; SQL statement:
+UPDATE "PUBLIC"."CATEGORY" SET "CATEGORY_ID"=? ,"NAME"=?  WHERE "CATEGORY_ID"=? [22018-200]
+2022-06-28 19:48:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION VARCHAR(255)": "'This is a top to bottom dramatic-looking pastry with its bright color of red which is sharply contrasted by a very fresh white ... (280)"; SQL statement:
+update product set category_id=?, description=?, image_name=?, name=?, price=?, weight=? where id=? [22001-200]
+2022-06-28 19:48:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION VARCHAR(255)": "'This is a top to bottom dramatic-looking pastry with its bright color of red which is sharply contrasted by a very fresh white ... (280)"; SQL statement:
+update product set category_id=?, description=?, image_name=?, name=?, price=?, weight=? where id=? [22001-200]
+2022-06-28 19:49:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION VARCHAR(255)": "'This is a top to bottom dramatic-looking pastry with its bright color of red which is sharply contrasted by a very fresh white ... (280)"; SQL statement:
+insert into product (category_id, description, image_name, name, price, weight, id) values (?, ?, ?, ?, ?, ?, ?) [22001-200]
+2022-06-28 19:49:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION VARCHAR(255)": "'This is a top to bottom dramatic-looking pastry with its bright color of red which is sharply contrasted by a very fresh white ... (280)"; SQL statement:
+insert into product (category_id, description, image_name, name, price, weight, id) values (?, ?, ?, ?, ?, ?, ?) [22001-200]
+2022-06-28 19:50:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION VARCHAR(255)": "'This is a top to bottom dramatic-looking pastry with its bright color of red which is sharply contrasted by a very fresh white ... (280)"; SQL statement:
+insert into product (category_id, description, image_name, name, price, weight, id) values (?, ?, ?, ?, ?, ?, ?) [22001-200]
+2022-06-28 20:07:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION VARCHAR(255)": "'This is a top to bottom dramatic-looking pastry with its bright color of red which is sharply contrasted by a very fresh white ... (324)"; SQL statement:
+update product set category_id=?, description=?, image_name=?, name=?, price=?, weight=? where id=? [22001-200]
+2022-06-28 20:07:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION VARCHAR(255)": "'This is a top to bottom dramatic-looking pastry with its bright color of red which is sharply contrasted by a very fresh white ... (324)"; SQL statement:
+update product set category_id=?, description=?, image_name=?, name=?, price=?, weight=? where id=? [22001-200]
+2022-06-28 20:07:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION VARCHAR(255)": "'This is a top to bottom dramatic-looking pastry with its bright color of red which is sharply contrasted by a very fresh white ... (324)"; SQL statement:
+update product set category_id=?, description=?, image_name=?, name=?, price=?, weight=? where id=? [22001-200]
+2022-06-28 20:07:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION VARCHAR(255)": "'This is a top to bottom dramatic-looking pastry with its bright color of red which is sharply contrasted by a very fresh white ... (324)"; SQL statement:
+update product set category_id=?, description=?, image_name=?, name=?, price=?, weight=? where id=? [22001-200]
+2022-06-28 20:07:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION VARCHAR(255)": "'This is a top to bottom dramatic-looking pastry with its bright color of red which is sharply contrasted by a very fresh white ... (324)"; SQL statement:
+update product set category_id=?, description=?, image_name=?, name=?, price=?, weight=? where id=? [22001-200]
+2022-06-28 22:51:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION VARCHAR(255)": "'This is a top to bottom dramatic-looking pastry with its bright color of red which is sharply contrasted by a very fresh white ... (324)"; SQL statement:
+update product set category_id=?, description=?, image_name=?, name=?, price=?, weight=? where id=? [22001-200]
+2022-06-28 22:51:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION VARCHAR(255)": "'This is a top to bottom dramatic-looking pastry with its bright color of red which is sharply contrasted by a very fresh white ... (281)"; SQL statement:
+update product set category_id=?, description=?, image_name=?, name=?, price=?, weight=? where id=? [22001-200]
+2022-06-29 18:05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION VARCHAR(255)": "'Mother of all good things in this whole wide world has to be something like this scrumptious choco-chip jar cake. Appealing as ... (257)"; SQL statement:
+insert into product (category_id, description, image_name, name, price, weight, id) values (?, ?, ?, ?, ?, ?, ?) [22001-200]
